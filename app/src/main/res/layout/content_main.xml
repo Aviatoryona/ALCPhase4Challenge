@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/droidsans"
+            android:gravity="center"
+            android:text="@string/welcome_to_alc_4_0"
+            android:textColor="@color/grey_1000"
+            android:textSize="28sp" />
+
+
+        <TextView
+            android:id="@+id/btnB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/toast"
+            android:fontFamily="@font/droidsans"
+            android:padding="12dp"
+            android:text="@string/abour_alc" />
+
+        <TextView
+            android:id="@+id/btnC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@drawable/toast"
+            android:fontFamily="@font/droidsans"
+            android:padding="12dp"
+            android:text="@string/my_profile" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

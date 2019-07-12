@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="abour_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="yonathaniel_k_mbogho">Yonathaniel K Mbogho</string>
+    <string name="tack_android">Tack: Android</string>
+    <string name="country_kenya">Country: Kenya</string>
+    <string name="email_aviatoryona67_gmail_com">Email: aviatoryona67@gmail.com</string>
+    <string name="phon_number_254711268164">Phon number: +254711268164</string>
+</resources>
